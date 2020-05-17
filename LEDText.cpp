@@ -3,12 +3,12 @@ LEDText V6 class by Aaron Liddiment (c) 2015
 
 Uses my LEDMatrix class and especially the 
 
-FastLED v3.1 library by Daniel Garcia and Mark Kriegsmann.
 Written & tested on a Teensy 3.1 using Arduino V1.6.3 & teensyduino V1.22
 
 Even the basic examples need 12k rom & 4k ram 
 */
 
+#define FASTLED_INTERNAL
 #include <FastLED.h>
 #include <LEDMatrix.h>
 #include <LEDText.h>
